@@ -18,6 +18,7 @@ html(lang='en')
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
         link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap', rel='stylesheet', type='text/css')
 
         <link href="" rel="stylesheet">
 
@@ -29,7 +30,7 @@ html(lang='en')
         // Navigation
         nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
             a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Andre Guedes
+                span.d-block.d-lg-none André Guedes
                 span.d-none.d-lg-block
                     img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.png', alt='...')
             button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
@@ -72,70 +73,120 @@ html(lang='en')
                .resume-section-content
                     h2.mb-5 Experience
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                    .d-flex.flex-column.flex-md-row-reverse.justify-content-between.mb-5
+                        .flex-shrink-0.mb-1
+                            span.text-primary Jan 2022 - Present
                         .flex-grow-1
                             h3.mb-0 Software Engineer II
                             .subheading.mb-3 Deliveroo - London, United Kingdom
                             p
                                 | Part of a multi disciplinary team that looks after the order tracker service. Led the successful migration to a new config tool, revolutionizing feature experimentation and enhancing the team's precision in toggling experiences. Navigated early adopter challenges through effective team communication. Improved the consumer experience by optimizing deliveries involving multiple riders. Elevated the reliability of the order tracker, particularly in worst-case scenarios, through the implementation of enhancements ensuring accurate information in instances of failed deliveries. Contributed to a more user-friendly and dynamic iOS app experience by enhancing Live Activities. Implemented rider vehicle information to ensure compliance with international regulations, showcasing dedication to regulatory adherence and global operational standards. Executed a comprehensive refactor of stack order logic, optimizing system efficiency and facilitating enhanced performance for different deliveries picked up by the same rider. Contributed to out-of-hours support, swiftly identifying and resolving live incidents utilizing monitoring tools.
-                            p
-                                | Tech stack: Ruby, Ruby on Rails, Golang, DynamoDB, Kafka, Redis, AWS, Docker, Terraform, Git, CircleCI, Datadog, Snowflake, Sentry, PagerDuty, Phrase
-                        .flex-shrink-0
-                            span.text-primary Jan 2022 - Present
+                            i.fas.fa-solid.fa-code.me-2
+                            span.badge Ruby
+                            span.badge Ruby on Rails
+                            span.badge Golang
+                            span.badge DynamoDB
+                            span.badge Kafka
+                            span.badge Redis
+                            span.badge AWS
+                            span.badge Docker
+                            span.badge Terraform
+                            span.badge Git
+                            span.badge CircleCI
+                            span.badge Datadog
+                            span.badge Snowflake
+                            span.badge Sentry
+                            span.badge PagerDuty
+                            span.badge Phrase
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                    .d-flex.flex-column.flex-md-row-reverse.justify-content-between.mb-5
+                        .flex-shrink-0
+                            span.text-primary Mar 2019 - Jan 2022
                         .flex-grow-1
                             h3.mb-0 Software Engineer
                             .subheading.mb-3 ASOS.com - London, United Kingdom
-                        .flex-shrink-0
-                            span.text-primary Mar 2019 - Jan 2022
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                    .d-flex.flex-column.flex-md-row-reverse.justify-content-between.mb-5
+                        .flex-shrink-0
+                            span.text-primary Jan 2018 - Feb 2019
                         .flex-grow-1
                             h3.mb-0 Associate Software Engineer
                             .subheading.mb-3 ASOS.com - London, United Kingdom
                             p
                                 | Part of a small backend team that looks after two golden-thread services that serve hundreds of thousands of requests per day, providing sizing and pricing data to web, mobile apps and feeds consumers. Size Guides feature owner with responsibilities on discovery, refinement, architecture, development and deployment. Adheres to Kanban principles to develop highly scaled and highly available microservices in an event-driven architecture seamlessly and continuously deployed to the cloud. Advocate of best code practices like TDD, DRY, YAGNI and SOLID. Member of the out of hours support team, identifying and resolving live incidents with the help of monitoring tools.
-                            p
-                                | Teck stack: .NET Core, C#, Microsoft Azure (Service Fabric, Service Bus, Cosmos DB, SQL Server, Blob Storage, KeyVault, Data Factories, Traffic Manager, Application Insights, Bastion), Redis cache, Git, Azure DevOps, Azure Pipelines, TeamCity, Octopus, NuGet, Snyk
-                        .flex-shrink-0
-                            span.text-primary Jan 2018 - Feb 2019
+                            i.fas.fa-solid.fa-code.me-2
+                            span.badge .NET Core
+                            span.badge C#
+                            span.badge Microsoft Azure
+                            span.badge Service Fabric
+                            span.badge Service Bus
+                            span.badge Cosmos DB
+                            span.badge SQL Server
+                            span.badge Blob Storage
+                            span.badge KeyVault
+                            span.badge Data Factories
+                            span.badge Traffic Manager
+                            span.badge Application Insights
+                            span.badge Bastion
+                            span.badge Redis cache
+                            span.badge Git
+                            span.badge Azure DevOps
+                            span.badge Azure Pipelines
+                            span.badge TeamCity
+                            span.badge Octopus
+                            span.badge NuGet
+                            span.badge Snyk
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                    .d-flex.flex-column.flex-md-row-reverse.justify-content-between.mb-5
+                        .flex-shrink-0
+                            span.text-primary Jan 2015 - Dec 2017
                         .flex-grow-1
                             h3.mb-0 Technical Consultant
                             .subheading.mb-3 Allocate Software - London, United Kingdom
                             p
                                 | Joined a team of technical consultants and assisted in delivering bespoke software solutions as well as core product implementations to some of the main players in the healthcare, military and offshore space such as BUPA, NATO, Maersk, The British Army and over 150 NHS trusts. Developed and implemented HR, payroll and other kinds of integrations using .NET C#. Responsible for running, supporting and enhancing the data migration toolkit, based in T-SQL. Customer facing interaction, either remotely or on site to gather requirements, propose and deploy solutions.
-                            p
-                                | Tech stack: .NET, C#, SQL Server, T-SQL, SVN, TFS, IIS, Entity Framework, Git
-                        .flex-shrink-0
-                            span.text-primary Jan 2015 - Dec 2017
+                            i.fas.fa-solid.fa-code.me-2
+                            span.badge .NET
+                            span.badge C#
+                            span.badge SQL Server
+                            span.badge T-SQL
+                            span.badge SVN
+                            span.badge TFS
+                            span.badge IIS
+                            span.badge Entity Framework
+                            span.badge Git
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                    .d-flex.flex-column.flex-md-row-reverse.justify-content-between.mb-5
+                        .flex-shrink-0
+                            span.text-primary Oct 2012 - Dec 2014
                         .flex-grow-1
                             h3.mb-0 Software Developer
                             .subheading.mb-3 ITSector - Lisbon, Portugal
                             p
                                 | Migrated a legacy credit recovery solution to Web Forms, for Caixa Económica Montepio Geral, taking on full stack responsibilities but with greater focus on the .NET backend. Collaborated closely with other teams and end-users to develop new functionality, test, troubleshoot issues and understand business needs. Been deeply involved in the specification, design and development of an add-in for MS Outlook to save email messages and attachments to a MS SQL Server database. Onboarded and coached a new intern colleague while managing the development of a new feature, planning and assigning tasks.
-                            p
-                                | Tech stack: .NET, C#, ASP.NET, SQL Server, T-SQL, Windows Forms, TFS, Visual Basic.NET
-                        .flex-shrink-0
-                            span.text-primary Oct 2012 - Dec 2014
+                            i.fas.fa-solid.fa-code.me-2
+                            span.badge .NET
+                            span.badge C#
+                            span.badge ASP.NET
+                            span.badge SQL Server
+                            span.badge T-SQL
+                            span.badge Windows Forms
+                            span.badge TFS
+                            span.badge Visual Basic.NET
                     
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                    .d-flex.flex-column.flex-md-row-reverse.justify-content-between.mb-5
+                        .flex-shrink-0
+                            span.text-primary May 2012 - Jun 2012
                         .flex-grow-1
                             h3.mb-0 Software Developer Intern
                             .subheading.mb-3 Intelie - Rio de Janeiro, Brazil
-                        .flex-shrink-0
-                            span.text-primary May 2012 - Jun 2012
                     
-                    .d-flex.flex-column.flex-md-row.justify-content-between
+                    .d-flex.flex-column.flex-md-row-reverse.justify-content-between
+                        .flex-shrink-0
+                            span.text-primary Feb 2011 - Jul 2011
                         .flex-grow-1
                             h3.mb-0 Inbound Call Centre Technical Support Assistant
                             .subheading.mb-3 Randstad Technologies - Braga, Portugal
-                        .flex-shrink-0
-                            span.text-primary Feb 2011 - Jul 2011
 
             hr.m-0
 
@@ -144,29 +195,29 @@ html(lang='en')
                 .resume-section-content
                     h2.mb-5 Education
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                    .d-flex.flex-column.flex-md-row-reverse.justify-content-between.mb-5
+                        .flex-shrink-0
+                            span.text-primary Aug 2011 - Jul 2012
                         .flex-grow-1
                             h3.mb-0 Federal University of Rio de Janeiro
                             h4.mb-0 Rio de Janeiro, Brazil
                             .subheading.mb-3 Erasmus Mundus programme
-                        .flex-shrink-0
-                            span.text-primary Aug 2011 - Jul 2012
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                    .d-flex.flex-column.flex-md-row-reverse.justify-content-between.mb-5
+                        .flex-shrink-0
+                            span.text-primary Sep 2010 - Jul 2012
                         .flex-grow-1
                             h3.mb-0 University of Minho
                             h4.mb-0 Braga, Portugal
                             .subheading.mb-3 Master's Degree in Systems Engineering
-                        .flex-shrink-0
-                            span.text-primary Sep 2010 - Jul 2012
                     
-                    .d-flex.flex-column.flex-md-row.justify-content-between
+                    .d-flex.flex-column.flex-md-row-reverse.justify-content-between
+                        .flex-shrink-0
+                            span.text-primary Sep 2006 - Jul 2010
                         .flex-grow-1
                             h3.mb-0 University of Minho
                             h4.mb-0 Braga, Portugal
                             .subheading.mb-3 Bachelor's Degree in Informatics Engineering
-                        .flex-shrink-0
-                            span.text-primary Sep 2006 - Jul 2010
 
             hr.m-0
 
@@ -176,7 +227,7 @@ html(lang='en')
                     h2.mb-5 Other
                     .subheading.mb-3 Interests
                     p
-                        | Embarking on culinary adventures, whether whipping up kitchen creations or exploring the latest eateries. Pedaling through life with a love for cycling, cultivating a thriving indoor jungle of house plants, and embarking on TV show marathons for the ultimate escape. Always planning the next travel escapade to add to the collection of unforgettable experiences.
+                        | Embarking on culinary adventures, whether experimenting in the kitchen or exploring the latest new restaurants. Pedaling through life with a love for cycling, cultivating a thriving indoor jungle of house plants, and embarking on TV show marathons for the ultimate escape. Always planning the next travel adventure to add to the collection of unforgettable experiences.
                     .subheading.mb-3 Languages
                     ul.fa-ul.mb-3
                         li
